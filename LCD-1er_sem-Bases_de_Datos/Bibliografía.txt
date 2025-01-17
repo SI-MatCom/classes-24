@@ -1,0 +1,45 @@
+Graph_Databases_for_Beginners_Why_We_Need_NoSQL_Databases.pdf
+2019 The_Future_of_Data_Storage__April_2019__Communications_of_the_ACM.pdf
+201606 pavlo-newsql-sigmodrec2016.pdf
+2015 Harrison, G. Next Generation Databases.pdf
+2013 Kimball, R. & al. The DW Life Cycle Toolkit.pdf
+1990 Codd, E. F. Relational Model for Database Management_ Version 2, The.pdf
+Seven Databases in Seven Weeks_ A Guide to Modern Databases and the NoSQL Movement - PDF Room.pdf
+2012 Redmond E. & Wilson L. R. Seven Databases in Seven Weeks.pdf
+.DS_Store
+2015 Date C. J. New Relational Database Dictionary, The.pdf
+2016 Azarmi, B. Scalable Big Data Architecture.pdf
+2014 Homan, J. Relational_vs_non-relational_databases__Pluralsight.pdf
+2018 Ming Yuh Day. BI Analytics and DSC.pdf
+Relational_vs_non-relational_databases__Pluralsight.pdf
+2015 Date, C. J. SQL and Relational Theory, 3rd Edition.pdf
+Graph_Databases_2e_Neo4j.pdf
+2013 Lake P. & Crowther P. Concise Guide to Databases.pdf
+What_is_the_CAP_theorem.pdf
+2018 Big Data BI. Debunking the Myths NoSQL.pdf
+2005 Inmon, W. H. Building the Data Warehouse (4th Edition).pdf
+Object-relational_impedance_mismatch_-_Wikipedia.pdf
+2018 Non-relational_data_and_NoSQL_-_Azure_Architecture_Center__Microsoft_Docs.pdf
+2013 Hurwitz, J. & al. Big Data For Dummies.pdf
+2001 Date C. J. Introduction to DB Systems 7ma. ed..pdf
+201904 Top_13_NewSQL_Databases_in_2020_-_Reviews,_Features,_Pricing,_Comparison_-_PAT_RESEARCH_B2B.pdf
+2020 Guru NoSQL_Tutorial_Learn_NoSQL_Features,_Types,_What_is,_Advantages(1).pdf
+2014 McCreary & D. Kelly A. Making Sense of NoSQL_ A guide for manager.pdf
+2018 Big Data BI. Debunking the Myths.pdf
+2013 Molina,Ullman, Widom - Database Systems The Complete Book.pdf
+The Little MongoDB Book.pdf
+201904 Las_13_principales_bases_de_datos_de_NewSQL_en_2020_revisiones,_características,_precios,_comparación[1].pdf
+2002 Kimball, R. & Ross, M. The DW Toolkit. Guide to Dimensional Modeling. (2nd Ed.) - Acceso directo.lnk
+2018 Graph_Databases_for_Beginners_Why_We_Need_NoSQL_Databases.pdf
+2015 Inmon & Linstedt. Data Arch_ Primer for Data Scientist_ Big Data, DW & Data Vault.pdf
+20190624 NewSQL_The_Global_Scale_Database_Trend_And_What_It_Means_For_You.pdf
+2015 Fowler A. NoSQL For Dummies.pdf
+20191030 NewSQL_—_The_Next_Evolution_in_Databases_-_Capital_One_Tech_-_Medium.pdf
+Tecnologías_de_almacenamiento_modernas_en_2020_lo_que_necesita_saber__Blog_de_Bigstep.pdf
+20150817 SQL_vs._NoSQL_vs._NewSQL_Finding_the_Right_Solution_-_Dataconomy.pdf
+2004 Date, C. J. An Introduction to Database Systems 8th edition.pdf
+Leskovec, Rajaraman, Ullman (2014). Mining of Massive Datasets.pdf
+2016 Kim, D. NoSQL_technologies_are_built_to_solve_business_problems,_not_just_“wrangle_big_data”_–_O’Reilly.pdf
+NoSQL_technologies_are_built_to_solve_business_problems,_not_just_“wrangle_big_data”_–_O’Reilly.pdf
+2013 Vaish G. Getting Started with NoSQL.pdf
+1988 Ullman, J. D. Principles-of-database-and-knowledge-base-systems-volume-1-1.pdf
