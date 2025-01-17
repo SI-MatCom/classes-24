@@ -1,0 +1,1186 @@
+{
+	"content": [
+		{
+			"id": 6,
+			"topic": "Representación del conocimiento. Indexación y Almacenamiento",
+			"subtopics":[
+				{
+					"id": 1,
+					"topic": "Representación del conocimiento"
+				},
+				{
+					"id": 2,
+					"topic": "Indexación y Almacenamiento"
+				}
+			]
+		},
+		{
+			"id": 7,
+			"topic": "Minería en la web: búsqueda, crawling y scraping",
+			"subtopics":[
+				{
+					"id": 1,
+					"topic": "Eras de la Web"
+				},
+				{
+					"id": 2,
+					"topic": "Web Crawling"
+				},
+				{
+					"id": 3,
+					"topic": "Web Scraping"
+				}
+			]
+		},
+		{
+			"id": 8,
+			"topic": "Ranking y posicionamiento en la Web",
+			"subtopics":[
+				{
+					"id": 1,
+					"topic": "Ranking"
+				},
+				{
+					"id": 2,
+					"topic": "Posicionamiento"
+				}
+			]
+		},
+		{
+			"id": 9,
+			"topic": "Acercamiento a la minería en redes",
+			"subtopics":[
+				{
+					"id": 1,
+					"topic": "Minería en redes"
+				}
+			]
+		},
+		{
+			"id": 10,
+			"topic": "RI en conjuntos masivos",
+			"subtopics":[
+				{
+					"id": 1,
+					"topic": "Hadoop y MapReduce"
+				},
+				{
+					"id": 2,
+					"topic": "Computación evolutiva"
+				}
+			]
+		}
+	],
+    "questions":[
+    	{
+			"topic_id": 6,
+			"subtopic_id": 1,
+			"statement": "En un sistema donde el conocimiento está definido a partir de reglas se puede asegurar que:",
+			"options": [
+				"El razonamiento se activa en cadena hacia delante.",
+				"El orden en que se definen las reglas no altera el razonamiento del sistema.",
+				"La representación de conocimiento está basada en la lógica proposicional.",
+				"El nivel de especificidad de las reglas está limitado."
+			],
+			"answers": [
+				true, false, true, false
+			]
+    	},
+		{
+			"topic_id": 6,
+			"subtopic_id": 1,
+			"statement": "En un sistema donde el conocimiento está orientado a objetos se puede asegurar que:",
+			"options": [
+				"No es posible definir especializaciones de los objetos de la vida real dentro del sistema.",
+				"Las funciones de agregación dificultan poder establecer relaciones entre los objetos.",
+				"Los marcos y las bandas son las estructuras utilizadas para la representación del modelo.",
+				"Se enfatiza la atención a la información de la cual se extrajo el conocimiento."
+			],
+			"answers": [
+				false, false, false, false
+			]
+    	},
+		{
+			"topic_id": 6,
+			"subtopic_id": 1,
+			"statement": "En el modelo de representación del conocimiento basado en herencia se puede asegurar que:",
+			"options": [
+				"Las conclusiones pueden ser canceladas si el grafo es ambiguo.",
+				"El razonamiento deducido está respaldado por al menos un camino dentro del grafo.",
+				"La cantidad de padres que puede tener un nodo no es mayor que 4.",
+				"Solo se usa en entornos referentes a la biología."
+			],
+			"answers": [
+				true, true, false, false
+			]
+    	},
+		{
+			"topic_id": 6,
+			"subtopic_id": 1,
+			"statement": "En un sistema de control de tráfico urbano basado en reglas, ¿cuál de las siguientes reglas sería más efectiva para manejar situaciones de congestión en una intersección?",
+			"options": [
+				"Si hay muchos vehículos en la intersección, aumentar el tiempo de los semáforos en verde.",
+				"Si hay pocos vehículos en la intersección, reducir el tiempo de los semáforos en verde.",
+				"Si hay un vehículo de emergencia en la intersección, detener todos los demás vehículos.",
+				"Si hay muchos peatones cruzando la intersección, reducir el tiempo de los semáforos en rojo."
+			],
+			"answers": [
+				true, false, false, false
+			]
+    	},
+		{
+			"topic_id": 6,
+			"subtopic_id": 1,
+			"statement": "En el diseño de un videojuego de roles (RPG) en el que los personajes tienen atributos como salud, fuerza y velocidad, ¿cuál de las siguientes opciones representa mejor una implementación de la representación del conocimiento orientado a objetos?",
+			"options": [
+				"Cada personaje se representa como una matriz de números que almacena sus valores de atributos.",
+				"Cada personaje se representa como una función que calcula sus atributos en función de su nivel y experiencia.",
+				"Cada personaje se representa como un objeto con propiedades como salud, fuerza y velocidad, y métodos para modificar y consultar estos valores.",
+				"Cada personaje se representa como una lista de cadenas de texto que describen sus características físicas y habilidades."
+			],
+			"answers": [
+				false, false, true, false
+			]
+    	},
+		{
+			"topic_id": 6,
+			"subtopic_id": 1,
+			"statement": "Un sistema cuenta con la siguiente información:\n\\begin{itemize}\n\\item Juan pertenece a la marina.\n\\item Juan es capellán (sacerdote encargado de una tarea específica fuera de la parroquia).\n\\item Los infantes de la marina suelen ser bebedores de cerveza.\n\\item Un capellán no suele ser bebedor de cerveza.\n\\item Un bebedor de cerveza suele tener sobrepeso.\n\\item Por lo general, un infante de la marina está en buena condición física.\n\\end{itemize}\nSi se representa la información en una red de herencia se puede concluir que:",
+			"options": [
+				"Existen dos razonamientos cancelables.",
+				"Juan tiene sobrepeso.",
+				"No se puede asegurar que Juan esté en buena condición física.",
+				"No se puede asegurar que Juan sea capellán."
+			],
+			"answers": [
+				true, false, true, false
+			]
+    	},
+		{
+			"topic_id": 6,
+			"subtopic_id": 2,
+			"statement": "En un SRI la indexación:",
+			"options": [
+				"Mejora la experiencia del usuario.",
+				"Facilita la RI relevante.",
+				"Permite la organización y la categorización de la información.",
+				"Consiste en asociar un identificador único a cada dato almacenado en el sistema."
+			],
+			"answers": [
+				false, true, true, false
+			]
+    	},
+		{
+			"topic_id": 6,
+			"subtopic_id": 2,
+			"statement": "La diferencia entre la indexación por tokens y la indexación por conceptos puede definirse como:",
+			"options": [
+				"La indexación por tokens divide los datos en términos individuales, mientras que la indexación por conceptos agrupa los datos en categorías definidas.",
+				"La indexación por tokens asigna un valor numérico a cada término de los datos, mientras que la indexación por conceptos utiliza algoritmos de encriptación para proteger la privacidad de los datos.",
+				"La indexación por tokens normaliza los datos reduciéndolos a su forma básica, mientras que la indexación por conceptos utiliza un método de ordenación para organizar los términos característicos de los datos.",
+				"La indexación por tokens asigna pesos a los términos basados en su importancia relativa, mientras que la indexación por conceptos utiliza un sistema de etiquetado para asociar términos con características generales."
+			],
+			"answers": [
+				true, false, false, false
+			]
+    	},
+		{
+			"topic_id": 6,
+			"subtopic_id": 2,
+			"statement": "Un SRI es capaz de:",
+			"options": [
+				"Reducir el tiempo de indexación de los datos si utiliza servidores distribuidos dentro de la red para que cada uno ejecute la indexación del mismo conjunto de datos.",
+				"Crear los índices asociados a los datos sin tener que analizar cada dato.",
+				"No necesitar de ningún almacenamiento externo para alojar los índices de los datos.",
+				"Generar índices invertidos de manera óptima sin considerar el contexto."
+			],
+			"answers": [
+				false, false, true, false
+			]
+    	},
+		{
+			"topic_id": 6,
+			"subtopic_id": 2,
+			"statement": "En una biblioteca digital se necesita implementar un sistema que permita a los usuarios encontrar libros y artículos científicos de forma rápida y precisa. Los documentos están en diversos formatos, incluyendo PDF, EPUB y HTML. Se requiere seleccionar un algoritmo de indexación adecuado para el sistema, por lo que el programador designado para la implementación debe considerar:",
+			"options": [
+				"La capacidad para manejar documentos en diferentes formatos.",
+				"La velocidad de indexación y recuperación de datos.",
+				"La complejidad del algoritmo en términos de implementación y mantenimiento.",
+				"La capacidad del algoritmo para procesar imágenes incrustadas o referenciadas en los ficheros."
+			],
+			"answers": [
+				true, true, true, false
+			]
+    	},
+		{
+			"topic_id": 6,
+			"subtopic_id": 2,
+			"statement": "Una empresa de comercio electrónico necesita mejorar su motor de búsqueda para proporcionar resultados más relevantes a sus usuarios. Actualmente, los resultados de la búsqueda no son precisos y los usuarios a menudo encuentran dificultades para encontrar productos específicos. La empresa está considerando implementar una indexación por conceptos para mejorar la relevancia de los resultados de búsqueda. ¿Qué beneficios podría provocar este cambio?",
+			"options": [
+				"Ayuda a identificar automáticamente relaciones entre productos, lo que puede mejorar las recomendaciones personalizadas a los usuarios.",
+				"Permite adaptarse fácilmente a cambios en el vocabulario y la terminología utilizada en las descripciones de los productos.",
+				"Mejora la precisión en la búsqueda de productos relacionados, incluso cuando no coinciden exactamente con los términos de búsqueda del usuario.",
+				"Facilita la visualización de productos al agruparlos por categorías o características comunes."
+			],
+			"answers": [
+				true, true, true, false
+			]
+    	},
+		{
+			"topic_id": 7,
+			"subtopic_id": 1,
+			"statement": "La Web 1.0 se caracteriza por:",
+			"options": [
+				"Los propietarios de los sitios web proporcionan contenido de forma periódica.",
+				"Uso de comunidades virtuales para popularizar los sitios web de noticias.",
+				"Las actualizaciones del contenido de los sitios web se efectúa de forma manual dentro del código HTML",
+				"Los sitios web se centran en brindar información en lugar de facilitar la colaboración o participación de los usuarios."
+			],
+			"answers": [
+				false, false, true, true
+			]
+    	},
+		{
+			"topic_id": 7,
+			"subtopic_id": 1,
+			"statement": "La Web 2.0 se caracteriza por:",
+			"options": [
+				"Las plataformas ofrecen experiencias a la medida, permitiendo a los usuarios personalizar sus perfiles, recibir recomendaciones ajustadas al contenido y participar en filtrado colaborativo.",
+				"El uso de distintas tecnologías para crear experiencias web más interactivas y con mayor capacidad de respuesta.",
+				"La existencia de sitios web dinámicos e interactivos que permiten a los usuarios participar, comentar e interactuar tanto con los creadores de contenido como con otros usuarios.",
+				"Las actualizaciones del contenido de los sitios web se efectúa de forma manual dentro del código HTML"
+			],
+			"answers": [
+				true, true, true, false
+			]
+    	},
+		{
+			"topic_id": 7,
+			"subtopic_id": 1,
+			"statement": "La Web 3 se conoce como:",
+			"options": [
+				"Web semántica.",
+				"Web de solo lectura.",
+				"Web de escritura-lectura.",
+				"Internet de las cosas."
+			],
+			"answers": [
+				true, false, false, false
+			]
+    	},
+		{
+			"topic_id": 7,
+			"subtopic_id": 1,
+			"statement": "La web actual se enfrenta a problemas como: ",
+			"options": [
+				"Presencia de datos volátiles y distribuidos.",
+				"Presencia de grandes volúmenes de datos estructurados.",
+				"Heterogeneidad en los datos.",
+				"Presencia de una alta calidad en los datos."
+			],
+			"answers": [
+				true, false, true, false
+			]
+    	},
+		{
+			"topic_id": 7,
+			"subtopic_id": 1,
+			"statement": "Una plataforma de comercio electrónico desea mejorar la experiencia del usuario al permitir una navegación más personalizada y contextualizada. Actualmente los usuarios tienen dificultades para encontrar productos relevantes debido a la gran cantidad de opciones disponibles. La empresa está interesada en implementar características de la Web 2.5 y la Web Semántica para abordar este problema. ¿Qué características podrían ayudar para ofrecer una navegación más personalizada y contextualizada?",
+			"options": [
+				"La integración de redes sociales para permitir la recomendación de productos basada en las preferencias de amigos y contactos.",
+				"La implementación de ontologías y metadatos para enriquecer la descripción de productos y mejorar la precisión de las recomendaciones.",
+				"La optimización de la velocidad de carga del sitio web para mejorar la experiencia del usuario y reducir el abandono del carrito de compra.",
+				"La incorporación de los productos en tendencia en el mercado."
+			],
+			"answers": [
+				false, true, false, false
+			]
+    	},
+		{
+			"topic_id": 7,
+			"subtopic_id": 2,
+			"statement": "Referente al Web Crawler puede afirmarse que:",
+			"options": [
+				"No necesita de un conjunto inicial de URLs para recorrer la Web.",
+				"Las páginas visitadas no se procesan nunca más.",
+				"No tiene como objetivo indexar y recopilar información de diferentes sitios web.",
+				"Los hipervínculos encontrados en cada sitio web que no pertenecen al dominio donde fueron encontrados se desechan, puesto que no expande el conjunto de URLs sin visitar."
+			],
+			"answers": [
+				false, false, false, false
+			]
+    	},
+		{
+			"topic_id": 7,
+			"subtopic_id": 2,
+			"statement": "La afirmación que mejor describe la política de amabilidad en los Web Crawlers es:",
+			"options": [
+				"Los crawlers se diseñan para acceder a sitios web sin restricciones y extraer datos de manera agresiva para su indexación.",
+				"La política de amabilidad establece pautas y reglas sobre cómo los crawlers deben interactuar con los sitios web para minimizar la carga del servidor y respetar las directivas de los administradores del sitio.",
+				"Los Web Crawlers son libres de recopilar datos de cualquier sitio web sin restricciones, independientemente de la cantidad de tráfico que generen.",
+				"La política de amabilidad de los Web Crawlers dicta que los crawlers deben priorizar ciertos tipos de contenido sobre otros, ignorando completamente ciertas páginas web."
+			],
+			"answers": [
+				false, true, false, false
+			]
+    	},
+		{
+			"topic_id": 7,
+			"subtopic_id": 2,
+			"statement": "La política de ordenación de URLs en los Web Crawlers tiene como aspecto fundamental:",
+			"options": [
+				"Determinar la forma en que los crawlers asignan un valor de relevancia a cada URL para clasificarlas en el índice de búsqueda.",
+				"Establecer la prioridad de rastreo de las URLs, determinando el orden en que los crawlers visitan y procesan cada página web.",
+				"Definir la estructura de la URL de destino, asegurando que estén ordenadas alfabéticamente para facilitar la navegación y la indexación.",
+				"Limitar el acceso de los crawlers a ciertas secciones de un sitio web, evitando el rastreo de URLs consideradas menos importantes o sensibles."
+			],
+			"answers": [
+				false, true, false, false
+			]
+    	},
+		{
+			"topic_id": 7,
+			"subtopic_id": 2,
+			"statement": "El propósito de la política de revisitado en los Web Crawlers es:",
+			"options": [
+				"Determinar la frecuencia con la que los crawlers deben volver a visitar una URL específica para mantener la información actualizada en el índice de búsqueda.",
+				"Establecer reglas sobre el tiempo máximo que los crawlers pueden pasar en un sitio web durante cada visita para evitar sobrecargar los servidores.",
+				"Definir la prioridad de rastreo de las URLs, determinando el orden en que los crawlers visitan y procesan cada página web.",
+				"Limitar el acceso de los crawlers a ciertos servidores luego de visitar las páginas alojadas en estos."
+			],
+			"answers": [
+				true, false, false, false
+			]
+    	},
+		{
+			"topic_id": 7,
+			"subtopic_id": 2,
+			"statement": "El conjunto frontera de URLs en un Web Crawler:",
+			"options": [
+				"Es similar a un conjunto de URLs que esperan ser visitadas.",
+				"Delimita los sitios web que visitará en futuras iteraciones del proceso.",
+				"Almacena hipervínculos que pertenecen al mismo dominio del conjunto semilla de URLs con que inició el crawler.",
+				"Indica las secciones que no pueden ser visitadas de cada sitio web."
+			],
+			"answers": [
+				true, true, false, false
+			]
+    	},
+		{
+			"topic_id": 7,
+			"subtopic_id": 2,
+			"statement": "Los Web Crawlers se enfrentan a desafíos constantes. Dentro de ellos se encuentran:",
+			"options": [
+				"La dificultad para generar el contenido dinámico en tiempo real.",
+				"La modificación del código y la estructura del sitio web.",
+				"La incapacidad para interpretar correctamente el lenguaje de programación utilizado en el desarrollo de los sitios web.",
+				"La falta de acceso a la base de datos del servidor web para extraer información actualizada."
+			],
+			"answers": [
+				true, true, false, false
+			]
+    	},
+		{
+			"topic_id": 7,
+			"subtopic_id": 3,
+			"statement": "Un investigador necesita recopilar datos de múltiples sitios web para un estudio académico, pero se enfrenta a varios desafíos al realizar el proceso de Web Scraping de manera ética y legal. ¿Cuál de las siguientes opciones describe mejor uno de los desafíos asociados al proceso de Web Scraping?",
+			"options": [
+				"La necesidad de comprender la estructura del sitio web y su código HTML para extraer los datos correctamente.",
+				"La dificultad para encontrar herramientas de Web Scraping gratuitas y fiables.",
+				"La disponibilidad limitada de datos en línea que se pueden extraer utilizando técnicas de Web Scraping.",
+				"La necesidad de estar montado sobre un scrawler que cumpla con todas las políticas."
+			],
+			"answers": [
+				true, false, false, false
+			]
+    	},
+		{
+			"topic_id": 7,
+			"subtopic_id": 3,
+			"statement": "¿Cuál de las siguientes opciones describe mejor la diferencia clave entre Web Crawling y Web Scraping?",
+			"options": [
+				"Web Crawling se centra en la exploración y recopilación de enlaces de múltiples sitios web, mientras que Web Scraping se enfoca en la extracción específica de datos de páginas web individuales.",
+				"Web Scraping implica el análisis de la estructura y el contenido de las páginas web para extraer datos, mientras que Web Crawling se refiere a la descarga y almacenamiento de páginas web completas.",
+				"Web Crawling se realiza utilizando herramientas de automatización como Selenium WebDriver, mientras que Web Scraping se lleva a cabo mediante el análisis de HTML y CSS.",
+				"Web Scraping es más eficaz para rastrear e indexar contenido web para motores de búsqueda, mientras que Web Crawling se utiliza principalmente para la extracción de datos en proyectos de investigación."
+			],
+			"answers": [
+				true, false, false, false
+			]
+    	},
+		{
+			"topic_id": 8,
+			"subtopic_id": 1,
+			"statement": "El algoritmo de PageRank puede describirse como un procedimiento utilizado para:",
+			"options": [
+				"Calcular la relevancia de una página web en función de la cantidad y calidad de los enlaces que apuntan hacia ella.",
+				"Clasificar las páginas web en función de su edad y autoridad.",
+				"Determinar la velocidad de carga de una página web en un navegador.",
+				"Prevenir el spam y el contenido no deseado en las páginas web."
+			],
+			"answers": [
+				true, false, false, false
+			]
+    	},
+		{
+			"topic_id": 8,
+			"subtopic_id": 1,
+			"statement": "Si se tiene el conjunto de páginas interconectadas $\\{A \\rightarrow B, C;  B \\rightarrow C; C \\rightarrow A\\}$, entonces la página con valor más alto de PageRank es: ",
+			"options": [
+				"A.",
+				"B.",
+				"C.",
+				"A y B."
+			],
+			"answers": [
+				false, false, true, false
+			]
+    	},
+		{
+			"topic_id": 8,
+			"subtopic_id": 1,
+			"statement": "El algoritmo de PageRank converge si:",
+			"options": [
+				"Se define un factor de normalización en la fórmula de la función.",
+				"Finaliza la ejecución cuando el número de iteraciones excede un máximo de iteraciones previamente definido.",
+				"La norma de la diferencia entre los vectores es menor a un umbral predefinido.",
+				"El algoritmo no se implementa de forma iterativa."
+			],
+			"answers": [
+				true, true, true, false
+			]
+    	},
+		{
+			"topic_id": 8,
+			"subtopic_id": 1,
+			"statement": "El concepto de \\emph{rank sink} en el algoritmo de PageRank representa páginas web:",
+			"options": [
+				"Con un alto número de enlaces salientes que no reciben enlaces entrantes, lo que puede afectar negativamente su puntuación de PageRank.",
+				"Con una baja calidad de contenido y una cantidad insuficiente de enlaces salientes, lo que las hace menos relevantes en los resultados de búsqueda.",
+				"Que tienen una puntuación de PageRank más alta que otras debido a la manipulación de enlaces entrantes y salientes.",
+				"Con distribuciones uniformes de la puntuación de PageRank."
+			],
+			"answers": [
+				true, false, false, false
+			]
+    	},
+		{
+			"topic_id": 8,
+			"subtopic_id": 2,
+			"statement": "Una buena práctica de SEO para mejorar el posicionamiento de un sitio web en los motores de búsqueda es:",
+			"options": [
+				"Llenar el contenido con palabras clave irrelevantes para aumentar la densidad de palabras clave.",
+				"Utilizar técnicas de encubrimiento para mostrar contenido diferente a lo indexado por los motores de búsqueda.",
+				"Obtener enlaces de otros sitios web relevantes y de calidad que apunten al sitio.",
+				"Copiar contenido directamente de otros sitios web populares para aumentar la cantidad de páginas indexadas."
+			],
+			"answers": [
+				false, false, true, false
+			]
+    	},
+		{
+			"topic_id": 8,
+			"subtopic_id": 2,
+			"statement": "El posicionamiento de un sitio web en los motores de búsqueda puede ser afectado por:",
+			"options": [
+				"Utilizar técnicas de encubrimiento para mostrar contenido diferente a lo indexado por los motores de búsqueda.",
+				"Obtener enlaces de sitios web irrelevantes y de baja calidad.",
+				"Mantener una estructura de URL clara y coherente.",
+				"Contenido sin valor en el sitio web."
+			],
+			"answers": [
+				true, true, false, true
+			]
+    	},
+		{
+			"topic_id": 8,
+			"subtopic_id": 2,
+			"statement": "Al realizar la optimización de contenido para SEO debe considerarse:",
+			"options": [
+				"Utilizar etiquetas de título y meta descripciones únicas y relevantes para cada página.",
+				"Crear contenido valioso y original que satisfaga las necesidades de los usuarios.",
+				"Seleccionar las palabras clave al azar.",
+				"Incluir palabras clave de manera excesiva en el contenido para mejorar el posicionamiento."
+			],
+			"answers": [
+				true, true, false, false
+			]
+    	},
+		{
+			"topic_id": 9,
+			"subtopic_id": 1,
+			"statement": "Para la RI, el análisis de las redes puede:",
+			"options": [
+				"Revelar patrones de influencia dentro de una comunidad.",
+				"Indicar la importancia de una entidad en la transmisión de la información.",
+				"Ayudar a identificar grupos de interés.",
+				"Ayudar a comprender la conectividad y la accesibilidad entre las entidades."
+			],
+			"answers": [
+				true, true, true, true
+			]
+    	},
+		{
+			"topic_id": 9,
+			"subtopic_id": 1,
+			"statement": "Se puede afirmar que:",
+			"options": [
+				"Todas las relaciones en una red tienen la misma importancia para el análisis.",
+				"La cantidad de conexiones de un nodo siempre indica su influencia en la red.",
+				"No es posible identificar subgrupos dentro de una red utilizando análisis de redes.",
+				"El tamaño de una red es siempre indicativo de su efectividad en la transmisión de información."
+			],
+			"answers": [
+				false, false, false, false
+			]
+    	},
+		{
+			"topic_id": 8,
+			"subtopic_id": 1,
+			"statement": "El algoritmo Hypertext Induced Topic Selection (HITS) intenta buscar nodos especiales. Estos son conocidos como:",
+			"options": [
+				"Hubs.",
+				"Autoridades.",
+				"Centrales.",
+				"Sensibles."
+			],
+			"answers": [
+				true, true, false, false
+			]
+    	},
+		{
+			"topic_id": 9,
+			"subtopic_id": 1,
+			"statement": "Si una red cumple la propiedad de ser un grafo de mundo pequeño, entonces se conoce que:",
+			"options": [
+				"La longitud media del camino entre todo par de vértices es pequeña.",
+				"La red posee pocos vértices.",
+				"El número de componentes fuertemente conexas está relacionado con la cantidad de grafos $K_n$ presentes.",
+				"El grafo es un anillo regular de grado 5."
+			],
+			"answers": [
+				true, false, false, false
+			]
+    	},
+		{
+			"topic_id": 9,
+			"subtopic_id": 1,
+			"statement": "¿Qué algoritmos permiten obtener información de una red?",
+			"options": [
+				"PageRank.",
+				"Hypertext Induced Topic Selection (HITS).",
+				"Índices de centralidad.",
+				"Detección de comunidades."
+			],
+			"answers": [
+				true, true, true, true
+			]
+    	},
+		{
+			"topic_id": 9,
+			"subtopic_id": 1,
+			"statement": "Se tiene un grafo donde cada nodo es un personaje de cierto libro de cuentos y la existencia de las aristas está definida si dos personajes aparecen en el mismo cuento. Se puede asegurar que:",
+			"options": [
+				"La centralidad de grado es útil para identificar los personajes con más conexiones dentro de la red, lo que puede indicar su importancia en el libro.",
+				"La centralidad de intermediación identifica a los personajes que actúan como conectores entre personajes de cuentos distintos.",
+				"La centralidad de cercanía indica el grado de conexión de cada personaje con el resto de los personajes de los cuentos del libro.",
+				"La centralidad de cercanía ofrece una relación entre la cantidad de vecinos de un nodo con respecto a la longitud máxima de un camino dentro del grafo partiendo del nodo en cuestión."
+			],
+			"answers": [
+				true, true, true, false
+			]
+    	},
+		{
+			"topic_id": 9,
+			"subtopic_id": 1,
+			"statement": "En un grafo una comunidad es:",
+			"options": [
+				"Un conjunto de nodos que están más densamente interconectados entre sí que con los nodos fuera del conjunto.",
+				"Un conjunto de nodos altamente conectados que forman un subgrafo completamente independiente del resto de la red.",
+				"Un conjunto de nodos que no comparten ninguna similitud estructural o funcional entre sí.",
+				"Un conjunto de nodos aislados."
+			],
+			"answers": [
+				true, false, false, false
+			]
+    	},
+		{
+			"topic_id": 9,
+			"subtopic_id": 1,
+			"statement": "Los algoritmos para detectar comunidades en una red intentan:",
+			"options": [
+				"Buscar conjuntos donde cada nodo de un mismo conjunto tenga características similares al resto de los nodos del conjunto.",
+				"Encontrar grupos donde los nodos pertenecientes a los mismos grupos son cercanos bajo cierta métrica y lejanos con respecto a los nodos de otros grupos.",
+				"Buscar subgrafos tal que no incluyan nodos cuya ausencia desconecte al subgrafo.",
+				"Seleccionar aleatoriamente nodos de alto grado y sus vecinos."
+			],
+			"answers": [
+				true, true, false, false
+			]
+    	},
+		{
+			"topic_id": 9,
+			"subtopic_id": 1,
+			"statement": "En el contexto de la RI en redes sociales se puede afirmar que:",
+			"options": [
+				"El análisis de centralidad de intermediación se utiliza para identificar usuarios que son importantes en una red social debido a su posición como ``puentes'' entre diferentes grupos de usuarios.",
+				"El análisis de sentimientos se utiliza para determinar la popularidad de una publicación en redes sociales sin tener en cuenta la opinión de los usuarios.",
+				"El análisis de redes sociales se centra exclusivamente en la cantidad de seguidores que tiene un usuario en particular para determinar su influencia en la red.",
+				"El análisis de redes sociales no es útil para comprender la difusión de información en una red social específica, para ello se utiliza la medida de centralidad de vector propio."
+			],
+			"answers": [
+				true, false, false, false
+			]
+    	},
+		{
+			"topic_id": 9,
+			"subtopic_id": 1,
+			"statement": "En el contexto de la RI en redes, se puede afirmar que:",
+			"options": [
+				"La detección de comunidades ayuda a identificar grupos de nodos altamente conectados entre sí, lo que puede ser útil para comprender la estructura y el contenido de la red.",
+				"La detección de comunidades no es relevante para la RI en redes, ya que se centra únicamente en la estructura de la red sin considerar el contenido.",
+				"La detección de comunidades solo se aplica a redes pequeñas y simples, no a redes grandes y complejas.",
+				"La detección de comunidades en una red siempre produce resultados objetivos y consistentes independientemente del algoritmo utilizado."
+			],
+			"answers": [
+				true, false, false, false
+			]
+    	},
+		{
+			"topic_id": 8,
+			"subtopic_id": 1,
+			"statement": "Sobre el algoritmo de PageRank, visto en clase, se puede afirmar que:",
+			"options": [
+				"Evalúa la importancia de un sitio web en función de la calidad y cantidad de enlaces entrantes que recibe de otros sitios web.",
+				"Asigna una puntuación baja a los sitios web que contienen muchos enlaces salientes, ya que indica una falta de relevancia.",
+				"Solo tiene en cuenta el contenido en un sitio web para determinar su relevancia en los resultados de búsqueda.",
+				"Asigna una puntuación alta a los sitios web que tienen un gran número de enlaces entrantes sin tener en cuenta la calidad de esos enlaces."
+			],
+			"answers": [
+				true, false, false, false
+			]
+    	},
+		{
+			"topic_id": 9,
+			"subtopic_id": 1,
+			"statement": "En una red de transporte donde cada nodo es una parada de autobús y las aristas representan si existe un carro que pasa por ambos sitios, ¿qué puede mejorar el sistema de transporte?",
+			"options": [
+				"Utilizar la centralidad de intermediación para identificar las paradas de transferencia clave y establecer nuevas conexiones entre diferentes líneas de transporte público.",
+				"No considerar la centralidad de intermediación de las estaciones de transporte público al planificar rutas y horarios, ya que no tiene impacto en las conexiones entre las paradas.",
+				"No implementar sistemas de información en tiempo real para los usuarios, ya que pueden aumentar la carga de los trabajadores.",
+				"Utilizar el grafo inducido de los nodos con mayor valor en la centralidad de grado para aplicar la centralidad de intermediación con el propósito de reforzar las paradas con mayor tráfico."
+			],
+			"answers": [
+				true, false, false, false
+			]
+    	},
+		{
+			"topic_id": 9,
+			"subtopic_id": 1,
+			"statement": "En una empresa comercial, se tiene una red donde los nodos corresponden a los empleados y las aristas representan la frecuencia con la que colaboran en las ventas. Se busca mejorar la colaboración entre los empleados para aumentar las ventas totales, por lo que la directiva debe:",
+			"options": [
+				"Utilizar la centralidad de cercanía para identificar los empleados más cercanos a otros en la red y promover la colaboración entre ellos, facilitando así la comunicación y el intercambio de conocimientos para mejorar las ventas.",
+				"No considerar la centralidad de cercanía de los empleados al diseñar estrategias de colaboración, ya que todos los empleados tienen el mismo acceso a la información y los recursos.",
+				"No tener en cuenta la centralidad de cercanía de los empleados al diseñar estrategias de colaboración, ya que esto podría introducir complicaciones adicionales en el proceso de trabajo.",
+				"Utilizar la centralidad de cercanía para identificar los empleados menos cercanos a otros en la red y asignarles tareas individuales para evitar posibles conflictos y desacuerdos en el proceso de colaboración."
+			],
+			"answers": [
+				true, false, false, false
+			]
+    	},
+		{
+			"topic_id": 9,
+			"subtopic_id": 1,
+			"statement": "Se tiene una red de ingredientes donde cada uno representa un nodo y las aristas simbolizan que los ingredientes forman parte de una misma receta. Se busca mejorar la experiencia culinaria mediante la elaboración de combinaciones de ingredientes más interesantes y creativas, para lo cual se debe:",
+			"options": [
+				"Utilizar la centralidad de grado para identificar los ingredientes más populares en la red y crear combinaciones que incluyan una variedad de ingredientes menos comunes.",
+				"No considerar la centralidad de grado de los ingredientes, ya que todas las combinaciones de ingredientes son igualmente válidas.",
+				"No tener en cuenta la centralidad de grado de los ingredientes para no darle mayor importancia a los ingredientes más comunes.",
+				"Utilizar la centralidad de grado para identificar los ingredientes menos conectados en la red y tomarlos en cuenta para su inclusión en las combinaciones."
+			],
+			"answers": [
+				true, false, false, true
+			]
+    	},
+		{
+			"topic_id": 10,
+			"subtopic_id": 1,
+			"statement": "En la RI en el contexto de Big Data, se puede asegurar que:",
+			"options": [
+				"El almacenamiento distribuido reparte los datos en múltiples servidores para mejorar la disponibilidad y la redundancia del sistema.",
+				"El almacenamiento distribuido centraliza todos los datos en un único servidor para facilitar su gestión y mantenimiento.",
+				"El almacenamiento distribuido es una técnica obsoleta.",
+				"El almacenamiento distribuido ofrece ventajas significativas en términos de escalabilidad y rendimiento en comparación con el almacenamiento centralizado."
+			],
+			"answers": [
+				true, false, false, true
+			]
+    	},
+		{
+			"topic_id": 10,
+			"subtopic_id": 1,
+			"statement": "En la RI en el contexto de Big Data, se puede asegurar que:",
+			"options": [
+				"La indexación distribuida divide los datos en múltiples fragmentos que se almacenan en varios nodos para permitir búsquedas paralelas y mejorar la escalabilidad.",
+				"La indexación distribuida almacena todos los datos en un solo servidor para facilitar su acceso y búsqueda.",
+				"La indexación distribuida no ofrece ventajas en términos de rendimiento y escalabilidad en comparación con la indexación centralizada.",
+				"La indexación distribuida es una técnica obsoleta."
+			],
+			"answers": [
+				true, false, false, false
+			]
+    	},
+		{
+			"topic_id": 10,
+			"subtopic_id": 1,
+			"statement": "En el contexto del procesamiento de grandes conjuntos de datos, se puede asegurar que:",
+			"options": [
+				"MapReduce divide una tarea en múltiples pasos de map y reduce que se ejecutan de forma secuencial en diferentes servidores para mejorar el rendimiento y la escalabilidad.",
+				"MapReduce es un enfoque para procesar datos de forma secuencial en un solo servidor para evitar problemas de concurrencia.",
+				"MapReduce solo puede manejar pequeñas cantidades de datos y no escala bien a grandes conjuntos de datos.",
+				"MapReduce no es adecuado para el procesamiento de datos no estructurados."
+			],
+			"answers": [
+				true, false, false, false
+			]
+    	},
+		{
+			"topic_id": 10,
+			"subtopic_id": 1,
+			"statement": "La computación evolutiva:",
+			"options": [
+				"Utiliza algoritmos para buscar soluciones óptimas en grandes espacios de búsqueda, lo que la hace adecuada para problemas de optimización en la RI.",
+				"No es aplicable en la RI debido a la complejidad de los algoritmos evolutivos.",
+				"Solo puede manejar conjuntos de datos pequeños y no es escalable a grandes volúmenes de datos.",
+				"Es útil solo para problemas de clasificación de documentos y no para otras tareas de RI en general."
+			],
+			"answers": [
+				true, false, false, false
+			]
+    	},
+		{
+			"topic_id": 10,
+			"subtopic_id": 1,
+			"statement": "Se puede afirmar que:",
+			"options": [
+				"MapReduce es un modelo de procesamiento distribuido utilizado para trabajar con grandes volúmenes de datos.",
+				"Los SRI pueden beneficiarse de MapReduce para mejorar la RI relevante.",
+				"El término ``Big Data'' se refiere exclusivamente al volumen de datos que una organización maneja, sin tener en cuenta la velocidad, la variedad y la veracidad de los datos.",
+				"Uno de los desafíos en el procesamiento de Big Data es la capacidad de gestionar y analizar datos provenientes de diversas fuentes y en diferentes formatos de manera eficiente."
+			],
+			"answers": [
+				true, true, false, true	
+			]
+    	},
+		{
+            "topic_id": 6,
+            "subtopic_id": 1,
+            "statement": "En el contexto de la representación del conocimiento basada en herencia, ¿qué caracteriza a la herencia cancelable?",
+            "options": [
+                "Las propiedades heredadas siempre se mantienen y no pueden anularse.",
+                "Las conclusiones no están determinadas y dependen del nodo de interés.",
+                "No existe ambigüedad en las conclusiones obtenidas.",
+                "La herencia es el resultado del razonamiento no transitivo."
+            ],
+            "answers": [
+                false,
+                true,
+                false,
+                false
+            ]
+        },
+        {
+            "topic_id": 6,
+            "subtopic_id": 1,
+            "statement": "Con respecto a WordNet y su contribución a las ontologías y la representación del conocimiento en los sistemas de RI, puede afirmarse que:",
+            "options": [
+                "WordNet diferencia claramente entre los significados de palabras según su uso en diferentes contextos, lo que permite aplicaciones avanzadas en desambiguación semántica más allá de los sistemas de recomendación y RI.",
+                "En WordNet, una palabra está asociada a un conjunto de sinónimos (synsets), siendo estas palabras intercambiables en un contexto.",
+                "Una limitación de WordNet en la representación del conocimiento es su enfoque en el idioma inglés, lo que plantea desafíos en la aplicación global y la interoperabilidad con sistemas de información multilingües.",
+                "La integración de WordNet en sistemas de RI permite la expansión de consultas y la mejora de la precisión de los resultados al entender mejor el significado de los términos de búsqueda a través de su contexto semántico y las relaciones entre palabras."
+            ],
+            "answers": [
+                true,
+                false,
+                true,
+                true
+            ]
+        },
+        {
+            "topic_id": 6,
+            "subtopic_id": 1,
+            "statement": "Sobre WordNet y su aplicación en el procesamiento del lenguaje natural, se puede afirmar que:",
+            "options": [
+                "WordNet proporciona una base para la desambiguación semántica al agrupar palabras con significados similares en synsets.",
+                "El diseño de WordNet facilita su integración en aplicaciones multilingües de NLP, aunque su desarrollo original se centró en el inglés.",
+                "Los synsets facilitan la identificación de relaciones semánticas entre palabras, como la hiperonimia y la meronimia, enriqueciendo tareas de NLP.",
+                "Aunque WordNet es una herramienta valiosa en el NLP, su estructura no incluye información sobre la frecuencia de uso de las palabras en el lenguaje natural."
+            ],
+            "answers": [
+                true,
+                false,
+                true,
+                true
+            ]
+        },
+        {
+            "topic_id": 6,
+            "subtopic_id": 2,
+            "statement": "En el algoritmo de Indexación Basada en Clasificación Bloqueada (BSBI), ¿cuál es el paso final para crear un índice invertido para la colección completa de los datos?",
+            "options": [
+                "Dividir la colección de datos en bloques de tamaño fijo.",
+                "Indexar cada bloque de forma independiente.",
+                "Fusionar los índices invertidos de cada bloque.",
+                "Eliminar los términos duplicados de los índices."
+            ],
+            "answers": [
+                false,
+                false,
+                true,
+                false
+            ]
+        },
+        {
+            "topic_id": 6,
+            "subtopic_id": 2,
+            "statement": "Implementar índices invertidos en un SRI asegura:",
+            "options": [
+                "Acelerar el proceso de búsqueda al permitir búsquedas directas por contenido en lugar de por título.",
+                "Incrementar la seguridad de los datos almacenados al dificultar el acceso directo a la información sin el índice correcto.",
+                "Reducir la cantidad de espacio de almacenamiento necesario al comprimir los datos de los documentos.",
+                "Facilitar la búsqueda sobre los datos que contienen términos específicos al mantener una lista de datos para cada término único."
+            ],
+            "answers": [
+                true,
+                false,
+                false,
+                true
+            ]
+        },
+        {
+            "topic_id": 7,
+            "subtopic_id": 1,
+            "statement": "La transición de la Web 1.0 a la Web 2.0 se caracterizó principalmente por:",
+            "options": [
+                "El cambio de páginas web estáticas a dinámicas, permitiendo la interacción del usuario y la generación de contenido.",
+                "La disminución de la importancia de los motores de búsqueda en la navegación web.",
+                "El aumento en la velocidad de conexión a internet, que permitió una mejor calidad de las páginas web.",
+                "La reducción en el uso de HTML y CSS en el desarrollo de sitios web."
+            ],
+            "answers": [
+                true,
+                false,
+                false,
+                false
+            ]
+        },
+        {
+            "topic_id": 7,
+            "subtopic_id": 2,
+            "statement": "¿Qué es un ``Uniform Resource Locator (URL) Frontier'' en el contexto de Web Crawling?",
+            "options": [
+                "Una base de datos que almacena URLs únicas identificadas como recursos en la web.",
+                "Una lista prioritaria de URLs que aún no han sido visitadas por el crawler.",
+                "Un protocolo que define cómo se deben formatear las URLs para el crawling.",
+                "Una técnica para filtrar URLs irrelevantes y mejorar la eficiencia del crawling."
+            ],
+            "answers": [
+                false,
+                true,
+                false,
+                false
+            ]
+        },
+        {
+            "topic_id": 7,
+            "subtopic_id": 2,
+            "statement": "¿Qué estrategia utilizan los Web Crawlers para asegurar un rastreo eficiente y respetuoso de los recursos de los sitios web?",
+            "options": [
+                "Ignorar completamente el archivo \\texttt{robots.txt} de los sitios web.",
+                "Visitar y rastrear todos los enlaces de una página web simultáneamente.",
+                "Seguir las directrices del archivo \\texttt{robots.txt} y aplicar un retraso entre las solicitudes.",
+                "Extraer únicamente contenido multimedia para reducir la carga en los servidores web."
+            ],
+            "answers": [
+                false,
+                false,
+                true,
+                false
+            ]
+        },
+        {
+            "topic_id": 7,
+            "subtopic_id": 3,
+            "statement": "Para transformar el contenido no estructurado de las páginas web en datos estructurados, el Web Scraping:",
+            "options": [
+                "Analiza los protocolos de red.",
+                "Interpreta el código JavaScript en tiempo real.",
+                "Extrae información basada en patrones de HTML/CSS.",
+                "Convierte de forma automática imágenes a texto."
+            ],
+            "answers": [
+                false,
+                false,
+                true,
+                false
+            ]
+        },
+        {
+            "topic_id": 7,
+            "subtopic_id": 3,
+            "statement": "Considerando las prácticas éticas y legales en el Web Scraping, se puede asegurar que:",
+            "options": [
+                "Web Scraping requiere considerar las políticas de \\texttt{robots.txt} del sitio web objetivo.",
+                "La extracción de datos mediante Web Scraping siempre es legal, independientemente de las leyes locales sobre derechos de autor y privacidad de datos definidos en los sitios web.",
+                "Es importante revisar y respetar los términos de servicio del sitio web, así como las leyes aplicables de protección de datos y derechos de autor, antes de realizar Web Scraping.",
+                "Web Scraping sobre datos personales sin consentimiento es generalmente aceptado si los datos se utilizan con fines de investigación."
+            ],
+            "answers": [
+                true,
+                false,
+                true,
+                false
+            ]
+        },
+        {
+            "topic_id": 8,
+            "subtopic_id": 1,
+            "statement": "La afirmación que mejor refleja el principio subyacente de PageRank, considerando su importancia en la clasificación de los sitios web, es:",
+            "options": [
+                "PageRank valora más la cantidad de enlaces entrantes a una página web, independientemente de la calidad o relevancia de estos enlaces.",
+                "El algoritmo de PageRank considera tanto la cantidad como la calidad de los enlaces entrantes, asignando mayor valor a los enlaces provenientes de sitios web considerados como ``importantes''.",
+                "PageRank opera bajo el supuesto de que los enlaces entrantes y salientes tienen el mismo impacto en la valoración de la relevancia de una página web.",
+                "La efectividad de PageRank se basa exclusivamente en el análisis de las palabras clave contenidas en los enlaces entrantes, sin considerar la estructura de enlace de la Web."
+            ],
+            "answers": [
+                false,
+                true,
+                false,
+                false
+            ]
+        },
+        {
+            "topic_id": 8,
+            "subtopic_id": 1,
+            "statement": "La premisa básica del algoritmo de PageRank para clasificar páginas web en los resultados de búsqueda es:",
+            "options": [
+                "La cantidad de visitas que recibe una página web determina su clasificación.",
+                "Los enlaces entrantes a una página web desde otras páginas contribuyen a su importancia y clasificación.",
+                "El contenido y la relevancia de las palabras clave en la página web determinan su posición.",
+                "La antigüedad de la página web es el principal factor para determinar su clasificación."
+            ],
+            "answers": [
+                false,
+                true,
+                false,
+                false
+            ]
+        },
+        {
+            "topic_id": 8,
+            "subtopic_id": 2,
+            "statement": "Existen varias estrategias consideradas como no recomendables para mejorar el SEO de un sitio web. Dentro de estas estrategias negativas, se encuentran:",
+            "options": [
+                "Utilizar técnicas de encubrimiento para mostrar contenido diferente a lo indexado por los motores de búsqueda.",
+                "Incluir una cantidad excesiva de palabras clave irrelevantes para intentar manipular los rankings de búsqueda.",
+                "Evitar el uso de las meta etiquetas y descripciones del sitio web para reflejar el contenido de la página.",
+                "Construir enlaces naturales de sitios web con autoridad y relevancia temática."
+            ],
+            "answers": [
+                true,
+                true,
+                true,
+                false
+            ]
+        },
+        {
+            "topic_id": 8,
+            "subtopic_id": 2,
+            "statement": "Para contribuir positivamente al posicionamiento orgánico de un sitio web en los motores de búsqueda se puede:",
+            "options": [
+                "Crear contenido relevante y de alta calidad que satisfaga las necesidades de información de los usuarios.",
+                "Incluir una densidad alta de palabras clave para asegurar que el sitio web aparezca en tantas búsquedas como sea posible.",
+                "Obtener enlaces entrantes de otros sitios web de alta autoridad y relevancia temática.",
+                "Mejorar la velocidad de carga del sitio web y asegurar que sea \\emph{responsive} y fácil de usar en dispositivos móviles."
+            ],
+            "answers": [
+                true,
+                false,
+                true,
+                true
+            ]
+        },
+        {
+            "topic_id": 9,
+            "subtopic_id": 1,
+            "statement": "Analizar una red permite:",
+            "options": [
+                "Obtener predicciones exactas de eventos futuros en mercados financieros.",
+                "Encontrar nodos ``sensibles'' o críticos para la red.",
+                "Detectar posibles tendencias antes de que se conviertan en tendencia.",
+                "Evaluar la calidad del contenido de un sitio web."
+            ],
+            "answers": [
+                false,
+                true,
+                true,
+                false
+            ]
+        },
+        {
+            "topic_id": 9,
+            "subtopic_id": 1,
+            "statement": "La centralidad de intermediación de un nodo indica:",
+            "options": [
+                "La cantidad de nodos vecinos directos.",
+                "La frecuencia con la que un nodo actúa como puente en el camino más corto entre otros dos nodos.",
+                "El número total de conexiones entrantes y salientes.",
+                "La resistencia del nodo a fallos."
+            ],
+            "answers": [
+                false,
+                true,
+                false,
+                false
+            ]
+        },
+        {
+            "topic_id": 9,
+            "subtopic_id": 1,
+            "statement": "No se considera como técnica para detectar comunidades en una red:",
+            "options": [
+                "Analizar la mutualidad de los enlaces.",
+                "Utilizar el algoritmo de K-Means.",
+                "Usar el agrupamiento jerárquico.",
+                "Encontrar cliques de vértices de grado par."
+            ],
+            "answers": [
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        {
+            "topic_id": 9,
+            "subtopic_id": 1,
+            "statement": "Al ``relajar'' el concepto de clique en la detección de comunidades se intenta solucionar:",
+            "options": [
+                "La imposibilidad de conectar nodos distantes.",
+                "El solapamiento y la complejidad computacional.",
+                "La necesidad de datos externos para analizar la red.",
+                "La uniformidad de los nodos en términos de grado."
+            ],
+            "answers": [
+                false,
+                true,
+                false,
+                false
+            ]
+        },
+        {
+            "topic_id": 9,
+            "subtopic_id": 1,
+            "statement": "Dentro del análisis de redes, la centralidad de grado mide la importancia de un nodo basándose en:",
+            "options": [
+                "El número de aristas que posee el nodo.",
+                "El grado del nodo.",
+                "La cantidad de vecinos del nodo.",
+                "La cantidad de veces que aparece el nodo en el camino mínimo entre cualquier par de nodos."
+            ],
+            "answers": [
+                true,
+                true,
+                true,
+                false
+            ]
+        },
+        {
+            "topic_id": 10,
+            "subtopic_id": 1,
+            "statement": "El uso de Hadoop y MapReduce en el contexto de la RI tiene como objetivo:",
+            "options": [
+                "Mejorar la eficiencia energética en centros de datos.",
+                "Facilitar el análisis en tiempo real de datos de redes sociales.",
+                "Procesar y analizar grandes conjuntos de datos para la RI.",
+                "Automatizar el mantenimiento de sistemas de bases de datos."
+            ],
+            "answers": [
+                false,
+                false,
+                true,
+                false
+            ]
+        },
+        {
+            "topic_id": 10,
+            "subtopic_id": 1,
+            "statement": "Considerando las dimensiones y desafíos inherentes a Big Data puede afirmarse, tomando en cuenta las características clave y las implicaciones para su procesamiento y análisis, que:",
+            "options": [
+                "Big Data se caracteriza principalmente por su pequeño volumen y uniformidad, permitiendo un procesamiento eficiente con mínimas adaptaciones de las herramientas de análisis de datos tradicionales.",
+                "Además de su complejidad y diversidad, Big Data introduce desafíos significativos en términos de veracidad y variabilidad al requerir métodos avanzados de limpieza y validación de datos para asegurar la integridad del análisis.",
+                "Aunque Big Data puede incluir datos estructurados, su naturaleza se expande al incorporar grandes cantidades de datos no estructurados y semiestructurados, lo que exige el uso de tecnologías especializadas en almacenamiento y procesamiento como Hadoop y sistemas de bases de datos NoSQL.",
+                "Big Data no desafía la capacidad de las herramientas tradicionales de procesamiento de datos para capturar, almacenar, gestionar y analizar efectivamente la información, dada la evolución constante de las capacidades computacionales y algoritmos de optimización."
+            ],
+            "answers": [
+                false,
+                true,
+                true,
+                false
+            ]
+        },
+        {
+            "topic_id": 10,
+            "subtopic_id": 1,
+            "statement": "El componente responsable de la gestión de recursos y planificación de tareas en Hadoop es:",
+            "options": [
+                "MapReduce.",
+                "Hadoop Common.",
+                "HDFS.",
+                "YARN."
+            ],
+            "answers": [
+                false,
+                false,
+                false,
+                true
+            ]
+        },
+        {
+            "topic_id": 10,
+            "subtopic_id": 1,
+            "statement": "Dentro del ecosistema de Hadoop, el HDFS se caracteriza por:",
+            "options": [
+                "El almacenamiento exclusivo para archivos de texto.",
+                "El modelo de acceso y de escritura de datos en tiempo real.",
+                "La tolerancia a fallos mediante la replicación de datos.",
+                "La capacidad ilimitada de almacenamiento."
+            ],
+            "answers": [
+                false,
+                false,
+                true,
+                false
+            ]
+        },
+        {
+            "topic_id": 10,
+            "subtopic_id": 1,
+            "statement": "La integración de Hadoop y MapReduce en la RI trae como ventaja:",
+            "options": [
+                "La eliminación de la necesidad de sistemas de bases de datos.",
+                "La posibilidad de la extracción de información relevante y la generación de resultados significativos de grandes conjuntos de datos.",
+                "La garantía de la privacidad absoluta de los datos procesados.",
+                "La reducción de los costos operativos a cero."
+            ],
+            "answers": [
+                false,
+                true,
+                false,
+                false
+            ]
+        }
+
+		
+    ]
+}

@@ -1,0 +1,295 @@
+\documentclass[11pt]{article}
+
+\usepackage{graphicx}
+\usepackage[top=0.25in, left=1.0in, right=1.0in]{geometry}
+\setlength{\topmargin}{-1.0in}
+\usepackage{url}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{setspace}
+\usepackage{tikz}
+\usetikzlibrary{er,positioning}  
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{arrows, decorations.markings}
+\usetikzlibrary{shapes.geometric}
+\usepackage{amsmath}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+
+\usepackage{datetime}
+\newdate{date}{16}{12}{2023}
+\date{\displaydate{date}}
+
+\usepackage{listingsutf8}
+\usepackage{xcolor,listings}
+\usepackage{textcomp}
+\usepackage{color}
+
+\usepackage{dirtree}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{HTML}{C42043}
+\definecolor{backcolour}{HTML}{F2F2F2}
+\definecolor{red}{HTML}{FF0000}
+\definecolor{bookColor}{cmyk}{0,0,0,0.90}  
+\color{bookColor}
+
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{longtable}
+
+\lstset{upquote=true}
+
+\lstdefinestyle{mystyle}{
+	% backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{codepurple},
+	numberstyle=\numberstyle,
+	stringstyle=\color{codepurple},
+	basicstyle=\footnotesize\ttfamily,
+	breakatwhitespace=false,
+	breaklines=true,
+	captionpos=b,
+	keepspaces=true,
+	% numbers=left,
+	numbersep=10pt,
+	showspaces=false,
+	showstringspaces=false,
+	showtabs=false,
+	otherkeywords = {OUT, SIGNAL, DECLARE, BEFORE, before, AFTER, CALL, WHILE, PROCEDURE, if, if},
+}
+\lstset{style=mystyle}
+
+\newcommand\numberstyle[1]{%
+	\footnotesize
+	\color{codegray}%
+	\ttfamily
+	\ifnum#1<10 0\fi#1 |%
+}
+
+\newcommand{\linetomark}{\rule{0.5cm}{0.4pt} }
+
+\begin{document}
+	
+	\lstset{
+		literate=%
+		{á}{{\'a}}1
+		{í}{{\'i}}1
+		{é}{{\'e}}1
+		{ý}{{\'y}}1
+		{ú}{{\'u}}1
+		{ó}{{\'o}}1
+		{ě}{{\v{e}}}1
+		{š}{{\v{s}}}1
+		{č}{{\v{c}}}1
+		{ř}{{\v{r}}}1
+		{ž}{{\v{z}}}1
+		{ď}{{\v{d}}}1
+		{ť}{{\v{t}}}1
+		{ň}{{\v{n}}}1                
+		{ů}{{\r{u}}}1
+		{Á}{{\'A}}1
+		{Í}{{\'I}}1
+		{É}{{\'E}}1
+		{Ý}{{\'Y}}1
+		{Ú}{{\'U}}1
+		{Ó}{{\'O}}1
+		{Ě}{{\v{E}}}1
+		{Š}{{\v{S}}}1
+		{Č}{{\v{C}}}1
+		{Ř}{{\v{R}}}1
+		{Ž}{{\v{Z}}}1
+		{Ď}{{\v{D}}}1
+		{Ť}{{\v{T}}}1
+		{Ň}{{\v{N}}}1                
+		{Ů}{{\r{U}}}1    
+	}
+	
+	\begin{centering}
+		\huge Modelo de Planificación y\\Control del Proceso Docente para\\Sistemas de Recuperación de Información
+		
+	\end{centering}
+	
+	\vspace{2\baselineskip}
+	
+	\textbf{Año:} 3ro 
+	
+	\textbf{Semestre:} 2do 
+	
+	\textbf{Curso:} 2024 
+	
+	\textbf{Carrera:} Ciencia de la Computación 
+		
+	\textbf{Plan:} E 
+	
+	
+	\subsection*{Planificación de las clases}
+	
+	Debido a la reducción de las horas/clases del curso 2024, para este semestre se propone la siguiente descomposición de temas por clase. 
+	
+	\begin{longtable}{|>{\centering\arraybackslash}p{1.5cm}|p{3.7cm}|p{2.2cm}|p{6cm}|}
+		\hline
+		\multicolumn{1}{|c|}{\textbf{Semana}} & \multicolumn{1}{c|}{\textbf{Día}} & \multicolumn{1}{c|}{\textbf{Modalidad}} & \multicolumn{1}{c|}{\textbf{Contenido}} \\
+		\hline 
+		\endfirsthead
+		%\hline
+		%\multicolumn{4}{|l|}{{Continuación de la página anterior}} \\
+		\hline
+		\multicolumn{1}{|c|}{\textbf{Semana}} & \multicolumn{1}{c|}{\textbf{Día}} & \multicolumn{1}{c|}{\textbf{Modalidad}} & \multicolumn{1}{c|}{\textbf{Contenido}} \\
+		\hline 
+		\endhead
+		\hline
+		\endfoot
+		\hline
+		\endlastfoot
+		
+		1 & lunes, 29 de abril  & Conferencia & \begin{minipage}[t]{\linewidth}
+			\begin{itemize}
+				\item Introducción a los SRI
+				\item Definición de un SRI \\
+			\end{itemize}
+		\end{minipage}  \\
+		\cline{2-4}
+		& miércoles, 1 de mayo & \multicolumn{2}{c|}{------ Feriado ------} \\
+		\hline
+		\hline
+		
+		2 & lunes, 6 de mayo  & Conferencia & \begin{minipage}[t]{\linewidth}
+			\begin{itemize}
+				\item Presentación de los Modelos Booleano, Vectorial y Probabilístico 
+				\item Ventajas y desventajas de cada uno \\
+			\end{itemize}
+		\end{minipage} \\
+		\cline{2-4}
+		& miércoles, 8 de mayo  & Laboratorio & Implementación del Modelo Booleano \\
+		\hline
+		\hline
+		
+		3 & lunes, 13 de mayo  & Conferencia & \begin{minipage}[t]{\linewidth}
+			\begin{itemize}
+				\item Evaluación y retroalimentación 
+				\item Expansión de la consulta \\
+			\end{itemize}
+		\end{minipage} \\
+		\cline{2-4}
+		& miércoles, 15 de mayo  & Laboratorio & Implementación del Modelo Vectorial \\
+		\hline
+		\hline
+		
+		4 & lunes, 20 de mayo  & Conferencia & \begin{minipage}[t]{\linewidth}
+			\begin{itemize}
+				\item Representación del conocimiento
+				\item Indexación y Almacenamiento \\
+			\end{itemize}
+		\end{minipage}  \\
+		\cline{2-4}
+		& miércoles, 22 de mayo  & Laboratorio & Implementación del Modelo Vectorial (Continuación) \\
+		\hline
+		\hline
+		
+		5 & lunes, 27 de mayo  & Conferencia & \begin{minipage}[t]{\linewidth}
+			\begin{itemize}
+				\item Procesamiento del lenguaje natural proveniente de textos \\
+			\end{itemize}
+		\end{minipage} \\
+		\cline{2-4}
+		& miércoles, 29 de mayo  & Laboratorio & Expansión de consultas \\
+		\hline
+		\hline
+		
+		6 & lunes, 3 de junio  & Conferencia & \begin{minipage}[t]{\linewidth}
+			\begin{itemize}
+				\item Procesamiento de sonidos \\
+			\end{itemize}
+		\end{minipage} \\
+		\cline{2-4}
+		& miércoles, 5 de junio  & Laboratorio & Evaluación de los SRI \\
+		\hline
+		\hline
+		
+		7 & lunes, 10 de junio  & Conferencia & \begin{minipage}[t]{\linewidth}
+			\begin{itemize}
+				\item Procesamiento de imágenes \\
+			\end{itemize}
+		\end{minipage}  \\
+		\cline{2-4}
+		& miércoles, 12 de junio  & Laboratorio &  Procesamiento del lenguaje natural\\
+		\hline
+		\hline
+		
+		8 & lunes, 17 de junio  & Conferencia & \begin{minipage}[t]{\linewidth}
+			\begin{itemize}
+				\item Eras de la Web
+				\item Minería en la Web: crawling y scraping \\
+			\end{itemize}
+		\end{minipage} \\
+		\cline{2-4}
+		& miércoles, 19 de junio  & Laboratorio & Procesamiento de imágenes \\
+		\hline
+		\hline
+		
+		9 & lunes, 24 de junio  & Conferencia & \begin{minipage}[t]{\linewidth}
+			\begin{itemize}
+				\item Ranking en la Web
+				\item SEO (posicionamiento) \\
+			\end{itemize}
+		\end{minipage} \\
+		\cline{2-4}
+		& miércoles, 26 de junio  & Laboratorio & Procesamiento de sonidos \\
+		\hline
+		\hline
+		
+		10 & lunes, 1 de julio  & Conferencia & \begin{minipage}[t]{\linewidth}
+			\begin{itemize}
+				\item Minería en redes
+				\item Métodos para la extracción de información, con vista de la recuperación \\
+			\end{itemize}
+		\end{minipage}  \\
+		\cline{2-4}
+		& miércoles, 3 de julio  & Laboratorio & Web Crawling y Scraping\\
+		\hline
+		\hline
+		
+		11 & lunes, 8 de julio  & Conferencia & \begin{minipage}[t]{\linewidth}
+			\begin{itemize}
+				\item Recuperación de información con conjuntos masivos de datos
+				\item Métodos para la extracción de información, con vista de la recuperación 
+				\item Hadoop 
+				\item Optimización en el espacio de las búsquedas \\
+			\end{itemize}
+		\end{minipage}  \\
+		\cline{2-4}
+		& miércoles, 10 de julio  & Laboratorio & Minería de redes  \\
+		\hline
+		\hline
+		
+		12 & lunes, 15 de julio  & Conferencia & Tiempo extra  \\
+		\cline{2-4}
+		& miércoles, 17 de julio  & Laboratorio & Trabajo de Control Parcial (referente a la web) \\
+		\hline
+	\end{longtable}
+	
+	
+	\vspace{2mm}
+	
+	\subsection*{Sistema evaluativo}
+	
+	Se propone el siguiente sistema de calificación:
+	
+	\begin{enumerate}
+		\item Proyecto Investigativo \\[1mm]
+		El objetivo es la investigación por parte del estudiante sobre problemas actuales referentes o vinculados a las temáticas a tratar durante el curso. Esta investigación tiene que culminar en una implementación donde el estudiante proponga una solución al problema seleccionado a trabajar. Los temas están vinculado a la recomendación de información.
+		
+		\item Trabajo de Control Parcial \\[1mm]
+		El objetivo es evaluar la parte del curso referente a la Web.
+		
+	\end{enumerate}
+	
+	
+	
+	
+\end{document}
+
+

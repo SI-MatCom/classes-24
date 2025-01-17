@@ -1,0 +1,3 @@
+1999 - Modern information retrieval, Ricardo Baeza Yates, Berthier Ribeiro Neto.pdf
+2008 - Introduction to information retrieval - Christopher Manning,  Prabhakar Raghavan, Hinrich Schutze.pdf
+Information Retrieval - Data Structures and Algorithms.pdf
