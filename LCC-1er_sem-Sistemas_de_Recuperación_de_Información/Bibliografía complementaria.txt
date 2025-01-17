@@ -1,0 +1,7 @@
+(The Information Retrieval Series 36) Peter Knees, Markus Schedl (auth.) - Music Similarity and Retrieval_ An Introduction to Audio- and Web-based Strategies-Springer-Verlag Berlin Heidelberg (2016).pdf
+InformationRetrievalinBigDataUsingEvolutionaryComputationASurvey.pdf
+Jure Leskovec, Anand Rajaraman, Jeffrey David Ullman - Mining of Massive Datasets [Team-IRA]-Cambridge University Press (2020).pdf
+Knowledge Representation and Reasoning.pdf
+Natural-Language-Processing-and-Computational-Linguistics---A practical guide to text with Python, Gensim, spaCy and Keras.epub
+Social Media Mining.2014.pdf
+pagerank.pdf
